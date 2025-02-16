@@ -15,7 +15,6 @@ def criar_tabelas():
         command = file.read()
     
     print('começando tabela')
-    #print(command)
 
     try:
         cursor.executescript(command)
